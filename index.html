@@ -9,25 +9,27 @@
   <body>
     <nav>
       <h2 class="logo">My Portfolio</h2>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">☰</label>
       <div class="menu">
         <a href="#">Home</a>
         <a href="#">Work</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
-        <a href="login.html">Login</a>
       </div>
     </nav>
     <header class="hero-section">
       <div class="hero-content">
         <h1>Welcome to My World</h1>
         <p>I am a creative web developer learning to build amazing things.</p>
-        <a href="#" class="button">Hire Me</a>
+        <a href="#" class="button">Wanna Ride</a>
       </div>
     </header>
     <div class="card-wrapper">
       <article class="card-container">
         <div class="card-pic">
-          <img src="profile-pic.jpg" alt="Owner Picture"/>
+          <img src="profile-pic.jpg" alt="Owner Picture" />
         </div>
         <div class="card-information">
           <h2>Md. Emon Hossain</h2>
@@ -56,11 +58,36 @@
         </div>
       </article>
     </div>
+    <input type="checkbox" id="price-switch" />
+    <div class="toogle-area">
+      <span>Monthly</span>
+
+      <label for="price-switch" class="switch-ui"></label>
+
+      <span>Yearly</span>
+    </div>
+    <div class="price-container">
+      <div class="basic">
+        <h3>Basic Plan</h3>
+        <p class="monthly">$10/month</p>
+        <p class="yearly">$100/year</p>
+        <button class="bbtn">Choose Plan</button>
+      </div>
+      <div class="basic featured">
+        <h3>Standard</h3>
+        <p class="monthly">$20/month</p>
+        <p class="yearly">$200/year</p>
+        <button class="bbtn mbtn">Choose Plan</button>
+      </div>
+      <div class="basic">
+        <h3>Premium</h3>
+        <p class="monthly">$50/month</p>
+        <p class="yearly">$500/year</p>
+        <button class="bbtn">Choose Plan</button>
+      </div>
+    </div>
     <footer>
       <p>© 2026 Emon's Portfolio. All rights reserved.</p>
     </footer>
   </body>
 </html>
-
-
-
